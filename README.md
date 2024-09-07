@@ -12,7 +12,7 @@ Contains all of the endpoints used in the core of the platform
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/hornet-platform/backend
    ```
 2. Create your python virtual environment (optional)
    ```sh
