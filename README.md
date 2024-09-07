@@ -29,8 +29,17 @@ Contains all of the endpoints used in the core of the platform
    
 ### Starting the service
 
-```sh
-python main.py
-```
+1. Run the service
+   ```sh
+   python main.py
+   ```
 
-As soon as the service starts, head to the host that was shown on the terminal to see the full documentation of the endpoints.
+As soon as the service starts, head to your browser with the host and the port that was shown on the terminal to see the full documentation of the endpoints.
+> Hint: you can change the port using `PORT` environment variable
+```sh
+INFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [20155] using WatchFiles
+INFO:     Started server process [20157]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+```
