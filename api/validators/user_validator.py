@@ -14,7 +14,10 @@ class UserValidator(BaseModel):
     )
     birthdate: datetime
     phone_number: str = Field(
-        min_length=7, max_length=15, pattern=r"^(01)[0-9]{9}$", strip_whitespace=True
+        min_length=7,
+        max_length=15,
+        pattern=r"^\+[0-9]{1,3}[0-9]{4,14}$",
+        strip_whitespace=True,
     )
     email: EmailStr
     username: str
